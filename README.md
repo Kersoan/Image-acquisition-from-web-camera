@@ -15,6 +15,8 @@ Anaconda - Python 3.7
 ### Step 1:
 
 Import cv2 and capture the video using cv2.VideoCapture(0).
+
+
 ### Step 2:
 Write the captured image using cv2.imwrite("NewPicture.jpg",frame).
 
@@ -29,8 +31,8 @@ Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180).
 
 ## Program:
 ``` Python
-### Developed By: Pranave B
-### Register No: 212221240040
+### Developed By: Kersoan P
+### Register No: 212221230050
 
 ## i) Write the frame as JPG file
 
@@ -39,13 +41,11 @@ videoCaptureObject = cv2.VideoCapture(0)
 
 while (True):
     ret,frame = videoCaptureObject.read()
-    cv2.imwrite("NewPicture.jpg",frame)
+    cv2.imwrite("212221230050.jpg",frame)
     
     result = False
 videoCaptureObject.release()
 cv2.DestroyAllWindows()
-
-
 
 ## ii) Display the video
 
@@ -59,7 +59,7 @@ while(True):
         break
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-    
+
 
 
 ## iii) Display the video by resizing the window
@@ -118,22 +118,21 @@ cv2.destroyAllWindows()
 ### i) Write the frame as JPG image
 </br>
 
-![](NewPicture.jpg)
-
+![](img1.jpg)
 </br>
 
 
 ### ii) Display the video
 </br>
 
-![](Car2.jpg)
+![](img2.jpg)
 </br>
 
 
 ### iii) Display the video by resizing the window
 </br>
 
-![](Car3.jpg)
+![](img3.jpg)
 </br>
 
 
@@ -141,8 +140,7 @@ cv2.destroyAllWindows()
 ### iv) Rotate and display the video
 </br>
 
-![](bat4.jpg)
-
+![](img4.jpg)
 </br>
 
 
